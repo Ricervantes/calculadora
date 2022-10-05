@@ -1,0 +1,18 @@
+*{
+    background-color: #01c4e7;}
+    .text{
+        animation: neonEffets 5s infinite;
+
+    }
+    @keyframes neonEffect{
+        0%, 35%, 45%, 65%, 100%{
+            text-shadow:
+            white 0 0 12px;
+            #EFFD6D 0 0 24PX;
+            #effd6d 0 0  36PX;
+        }
+        40%, 60%{
+            text-shadow: none;
+        }
+    }
+    
